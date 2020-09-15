@@ -13,10 +13,15 @@ def loop_message_n_times(message, n)
   end
 end
 
-def output_array
+def output_array(message, n)
+  n.times do
+    puts message
+  end
 end
 
 
-def return_string_array
+def return_string_array(arr)
+  new_arr = []
+  new_arr << arr.map(&:to_s)
 end
   
