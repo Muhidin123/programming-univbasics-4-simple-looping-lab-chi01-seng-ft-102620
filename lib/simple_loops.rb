@@ -7,10 +7,8 @@ def loop_message_five_times(message)
 end
 
 
-def loop_message_n_times(message, n)
-  n.times do
-    puts message
-  end
+def loop_message_n_times(arr)
+  arr.map {|x| puts x } 
 end
 
 def output_array(message)
