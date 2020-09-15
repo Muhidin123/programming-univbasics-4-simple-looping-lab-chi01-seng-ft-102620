@@ -19,7 +19,6 @@ end
 
 
 def return_string_array(arr)
-  new_arr = []
-  new_arr << arr.map(&:to_s)
+ arr.map(&:to_s)
 end
   
