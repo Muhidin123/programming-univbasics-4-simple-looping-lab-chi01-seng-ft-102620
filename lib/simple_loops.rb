@@ -14,7 +14,7 @@ def loop_message_n_times(message, n)
 end
 
 def output_array(message)
-  arr.map {|x| puts x } 
+  message.map {|x| puts x } 
 end
 
 
